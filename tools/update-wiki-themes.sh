@@ -195,7 +195,7 @@ for theme in $theme_list; do
     for image in $image_list; do
       # Extract filename and construct image URL
       image_filename=$(basename "$image")
-      image_url=https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/themes/$theme/$image_filename
+      image_url=https://raw.githubusercontent.com/tmichett/oh-my-bash/master/themes/$theme/$image_filename
 
       # append image to theme example markdown block...
       markdown_text="$markdown_text![$theme]($image_url)\n"
